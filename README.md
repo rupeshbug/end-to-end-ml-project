@@ -8,6 +8,14 @@ This is a machine learning project that predicts students' performance based on 
 - Prediction of student performance scores
 - Web interface to input data and view predictions
 
+### Workflows - ML Pipeline
+
+1. Data Ingestion
+2. Data Validation
+3. Data Transformation
+4. Model Trainer
+5. Model Evaluation
+
 ### Technologies Used
 - **Python**: Programming language used for developing the model and web application.
 - **Flask**: Framework used for creating the web application.
