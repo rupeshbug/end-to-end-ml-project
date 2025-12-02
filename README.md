@@ -29,3 +29,4 @@ The model is trained on the popular Wine Quality dataset, containing the followi
 - **Pandas & Numpy**: Libraries for data manipulation and analysis.
 - **Matplotlib & Seaborn**: Libraries for data visualization.
 - **MLflow**: Experiment tracking
+- **Dagshub**: Manage ML projects
