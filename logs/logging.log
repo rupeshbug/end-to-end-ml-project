@@ -190,3 +190,70 @@ x==========x]
 [2025-12-02 11:22:00,243: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2025-12-02 12:21:28,277: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-12-02 12:21:28,279: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-12-02 12:21:28,281: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-12-02 12:21:28,282: INFO: common: created directory at: artifacts]
+[2025-12-02 12:21:28,284: INFO: common: created directory at: artifacts/data_transformation]
+[2025-12-02 12:22:05,264: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-12-02 12:22:05,268: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-12-02 12:22:05,271: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-12-02 12:22:05,273: INFO: common: created directory at: artifacts]
+[2025-12-02 12:22:05,274: INFO: common: created directory at: artifacts/data_transformation]
+[2025-12-02 12:22:05,305: INFO: 3892423448: Splitted data into training and test sets]
+[2025-12-02 12:22:05,305: INFO: 3892423448: (1199, 12)]
+[2025-12-02 12:22:05,305: INFO: 3892423448: (400, 12)]
+[2025-12-02 12:56:50,703: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-12-02 12:56:50,704: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-12-02 12:56:50,705: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-12-02 12:56:50,707: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-12-02 12:56:50,707: INFO: common: created directory at: artifacts]
+[2025-12-02 12:56:50,708: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-12-02 12:56:50,708: INFO: data_ingestion: file already exists]
+[2025-12-02 12:56:50,710: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-12-02 12:56:50,710: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-02 12:56:50,712: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-12-02 12:56:50,712: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-12-02 12:56:50,713: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-12-02 12:56:50,714: INFO: common: created directory at: artifacts]
+[2025-12-02 12:56:50,714: INFO: common: created directory at: artifacts/data_validation]
+[2025-12-02 12:56:50,737: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-12-02 12:56:50,737: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-12-02 12:56:50,740: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-12-02 12:58:25,507: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-12-02 12:58:25,508: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-12-02 12:58:25,510: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-12-02 12:58:25,511: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-12-02 12:58:25,511: INFO: common: created directory at: artifacts]
+[2025-12-02 12:58:25,511: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-12-02 12:58:25,512: INFO: data_ingestion: file already exists]
+[2025-12-02 12:58:25,514: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-12-02 12:58:25,515: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-02 12:58:25,516: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-12-02 12:58:25,517: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-12-02 12:58:25,519: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-12-02 12:58:25,521: INFO: common: created directory at: artifacts]
+[2025-12-02 12:58:25,521: INFO: common: created directory at: artifacts/data_validation]
+[2025-12-02 12:58:25,549: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-12-02 12:58:25,552: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-12-02 12:58:25,560: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-12-02 12:58:25,561: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-12-02 12:58:25,566: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-12-02 12:58:25,569: INFO: common: created directory at: artifacts]
+[2025-12-02 12:58:25,570: INFO: common: created directory at: artifacts/data_transformation]
+[2025-12-02 12:58:25,610: INFO: data_transformation: Splitted data into training and test sets]
+[2025-12-02 12:58:25,610: INFO: data_transformation: (1199, 12)]
+[2025-12-02 12:58:25,610: INFO: data_transformation: (400, 12)]
+[2025-12-02 12:58:25,611: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
