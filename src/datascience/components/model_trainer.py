@@ -7,6 +7,12 @@ from src.datascience import logger
 from sklearn.linear_model import ElasticNet
 from xgboost import XGBRegressor
 import joblib
+import mlflow
+import mlflow.sklearn
+
+os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/chaulagainrupesh1/end-to-end-ml-project.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "chaulagainrupesh1"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "c86602b44127e4fdb1576928c0aa2ddbf3118d8d"
 
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
@@ -33,3 +39,7 @@ class ModelTrainer:
             "RandomForest": RandomForestRegressor(n_estimators=100, max_depth=6, random_state=42),
             "XGBoost": XGBRegressor(n_estimators=100, max_depth=3, learning_rate=0.1, random_state=42)
         }
+        
+        best_model = None
+        best_rmse = float("inf")
+        mlflow.set_tracking_uri(self.config.mlflow_uri)
