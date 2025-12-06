@@ -61,7 +61,8 @@ class ConfigurationManager:
             model_name=config.model_name,
             alpha=params.alpha,
             l1_ratio=params.l1_ratio,
-            target_column=schema.name
+            target_column=schema.name,
+            mlflow_uri="https://dagshub.com/chaulagainrupesh1/end-to-end-ml-project.mlflow"
         )
         return model_trainer_config
     
