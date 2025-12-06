@@ -26,9 +26,9 @@ class ModelTrainerConfig:
     train_data_path: Path
     test_data_path: Path
     model_name: str
-    alpha: float
-    l1_ratio: float
     target_column: str
+    mlflow_uri: str
+    all_params: dict
     
 @dataclass
 class ModelEvaluationConfig:
@@ -39,3 +39,4 @@ class ModelEvaluationConfig:
     metric_file_name: Path
     target_column: str
     mlflow_uri: str
+    all_params: dict
